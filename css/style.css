@@ -1,0 +1,309 @@
+body
+{
+	color: #000!important;
+	font-family: "Open Sans", sans-serif!important;
+}
+
+table th
+{
+	font-style: italic;
+}
+
+.navbar
+{
+	border-radius: 0px!important;
+	border: none!important;
+	padding: 10px;
+	margin-bottom: 0px!important;
+}
+
+.navbar-default
+{
+	background-color: #C7B18B!important;
+}
+
+.navbar-default .navbar-brand
+{
+	color: #fff!important;
+	padding: 0px 0px 0px 5px!important;
+}
+
+
+.nav li.active a
+{
+	background: none!important;
+	color: #777!important;
+}
+
+.nav li a
+{
+	color: #fff!important;
+}
+
+.footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: #C7B18B;
+	color: #fff!important;
+	padding: 10px;
+}
+
+.social-icons
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.social-icons li
+{
+	display: inline-block;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.social-icons li a 
+{
+	color: #fff;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.heading-pages
+{
+	color: #C7B18B;
+	font-style: italic;
+	border-bottom: 1px solid #C7B18B;
+	padding-bottom: 10px;
+}
+
+.intro-pages
+{
+	margin-top: 15px!important;
+}
+
+.main, .main-room, .main-room-mobile, .main-activities, .main-activities-mobile
+{
+	color: #777;
+	overflow: auto;
+	margin-bottom: 100px;
+}
+
+.main-home
+{
+	margin: 0;
+}
+
+.margin-row
+{
+	margin-bottom: 30px;
+}
+
+.room-heading
+{
+	font-style: italic;
+	font-size: 20px;
+}
+
+.margin-top20
+{
+	margin-top: 20px;
+}
+
+.margin-bottom30
+{
+	margin-bottom: 30px;
+}
+
+.margin-bottom20
+{
+	margin-bottom: 20px;
+}
+
+.btn-book
+{
+	background: #C7B18B;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+}
+
+.btn-book:hover, .btn-book:focus
+{
+	color: #fff;
+	text-decoration: none;
+	background: #777;
+}
+
+#map_canvas 
+{
+    width: 100%;
+    height: 400px;
+    background-color: #CCC;
+}
+
+#contact_info
+{
+	margin-top: 20px;
+}
+
+#contact_info p 
+{
+	margin-bottom: 5px!important;
+}
+
+#contact_info a 
+{
+	color: #777;
+}
+
+#contact_info span
+{
+	font-size: 20px;
+}
+
+.no-padding-left
+{
+	padding-left: 0;
+}
+
+.no-padding-right
+{
+	padding-right: 0;
+}
+
+input.btn-book
+{
+	outline: 0;
+	padding: 5px 20px!important;
+}
+
+.error
+{
+	color: red;
+}
+
+.ui-datepicker td 
+{
+    border: 1px solid #CCC;
+    padding: 5px;
+}
+
+.ui-datepicker th
+{
+	color: #777;
+}
+
+.ui-datepicker
+{
+	background: #C7B18B;
+	border-radius: 5px;
+}
+
+.ui-datepicker-next
+{
+	float: right;
+	color: #777;
+}
+
+.ui-datepicker-prev
+{
+	color: #777;
+}
+
+.ui-datepicker-title
+{
+	color: #777;
+	text-align: center;
+}
+
+.ui-state-default
+{
+	color: #777;
+}
+
+.img-hover:hover
+{
+	opacity: 0.3;
+}
+
+.modal-dialog
+{
+	width: 900px!important;
+}
+
+.modal-header
+{
+	border: none!important;
+}
+
+.modal-body img
+{
+	width: 100%;
+}
+
+.img-activities:hover
+{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.img-activities
+{
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+.intro
+{
+	width: 100%;
+}
+
+#arrow-left
+{
+	position: fixed;
+	left: 50px;
+}
+
+#arrow-right
+{
+	position: fixed;
+	right: 50px;
+}
+
+.carousel-caption p 
+{
+	font-family: 'Italianno', cursive;
+	font-size: 70px;	
+}
+
+.carousel-caption
+{
+	position: fixed;
+	top: 60px;
+}
+
+.main-room
+{
+	display: block;
+}
+
+.main-activities
+{
+	display: block;
+}
+
+.main-room-mobile
+{
+	display: none;
+}
+
+.main-activities-mobile
+{
+	display: none;
+}

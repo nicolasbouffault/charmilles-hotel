@@ -1,0 +1,135 @@
+/* Responsive CSS */
+
+@media (max-width: 767px){
+
+	.nav li 
+	{
+		border-bottom: 1px solid #fff;
+	}
+
+	.nav li:last-child
+	{
+		border-bottom: none!important;
+	}
+
+	.nav li:hover
+	{
+		background: #f1f1f1;
+	}
+
+	.nav li a:hover
+	{
+		color: #c7b18b!important;
+	}
+
+	.navbar
+	{
+		padding-bottom: 0px!important;
+	}
+
+	.navbar-nav
+	{
+		margin: 0px -15px!important;
+	}
+
+	.no-padding-right
+	{
+		padding: 0;
+	}
+
+	.no-padding-left
+	{
+		padding: 0;
+	}
+
+	.modal-dialog
+	{
+		width: auto!important;
+	}
+
+	#arrow-left, #arrow-right
+	{
+		display: none;
+	}
+
+	.carousel-caption p
+	{
+		font-size: 30px;
+	}
+
+	.carousel-caption
+	{
+		position: absolute;
+	}
+
+	.main-room-mobile
+	{
+		display: block!important;
+		overflow: visible;
+	}
+
+	.main-room
+	{
+		display: none!important;
+	}
+
+	.pull-right
+	{
+		float: none!important;
+	}
+
+	.img-responsive
+	{
+		display: inline-block;
+	}
+
+	.img-activities:hover
+	{
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.main-activities-mobile
+	{
+		display: block;
+	}
+
+	.main-activities
+	{
+		display: none;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	.main-room
+	{
+		display: none;
+	}
+
+	.main-room-mobile
+	{
+		display: block;
+	}
+
+	.main-activities-mobile
+	{
+		display: block;
+	}
+
+	.main-activities
+	{
+		display: none;
+	}
+
+	.pull-right
+	{
+		float: none!important;
+	}
+
+	.img-responsive
+	{
+		display: inline-block;
+	}
+}

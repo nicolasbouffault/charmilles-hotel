@@ -6,3 +6,8 @@
 //   }
 //   var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 // }
+
+$(document).ready(function(){
+    $("#inputDateIn").datepicker();
+    $("#inputDateOut").datepicker();
+});
